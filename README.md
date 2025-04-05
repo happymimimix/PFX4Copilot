@@ -1,2 +1,1 @@
-# PFX4Copilot
-Why I can't send forked repositories to Github Copilot? Fuck you! 
+# Original Repository: https://github.com/happymimimix/Piano-FX-Pro
