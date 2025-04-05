@@ -1,0 +1,1549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Arinoglish|x64">
+      <Configuration>Arinoglish</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Chinese|x64">
+      <Configuration>Chinese</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EnforceSoftwareRender|x64">
+      <Configuration>EnforceSoftwareRender</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Japanese|x64">
+      <Configuration>Japanese</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Korean|x64">
+      <Configuration>Korean</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DoubleArinoglish|x64">
+      <Configuration>DoubleArinoglish</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Russian|x64">
+      <Configuration>Russian</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD4C822F-844F-40BF-8113-129B04EDE199}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PianoFromAbove</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Korean|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Russian|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Korean|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Russian|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lzma\lib;$(ProjectDir)freetype\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <TargetName>Piano-FX-Pro</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lzma\lib;$(ProjectDir)freetype\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <TargetName>Piano-FX-Pro-ARN</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lzma\lib;$(ProjectDir)freetype\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <TargetName>Piano-FX-Pro-DRN</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lzma\lib;$(ProjectDir)freetype\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <TargetName>Piano-FX-Pro-KOR</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lzma\lib;$(ProjectDir)freetype\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <TargetName>Piano-FX-Pro-RUS</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lzma\lib;$(ProjectDir)freetype\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <TargetName>Piano-FX-Pro-CHN</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lzma\lib;$(ProjectDir)freetype\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <TargetName>Piano-FX-Pro-JPN</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lzma\lib;$(ProjectDir)freetype\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <TargetName>Piano-FX-Pro-SoftwareRendered</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lzma\lib;$(ProjectDir)freetype\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <TargetName>Piano-FX-Pro</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <VcpkgAutoLink>false</VcpkgAutoLink>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;INCLUDE_FFMPEG;ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/clang:-Ofast /clang:-msse4.2 %(AdditionalOptions)</AdditionalOptions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <GuardSignedReturns>false</GuardSignedReturns>
+      <OpenMPSupport>false</OpenMPSupport>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lzma.lib;winhttp.lib;freetype-x64.lib;libpng16-x64.lib;zlib-x64.lib;brotlicommon-x64.lib;brotlidec-x64.lib;bz2-x64.lib;dxguid.lib;dxgi.lib;d3d12.lib;Psapi.lib;Shlwapi.lib;Dwmapi.lib;Comctl32.lib;WinMM.lib;UxTheme.lib;Advapi32.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>
+      </Version>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <AdditionalManifestDependencies>"type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'";%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+msbuild ..\Colorizer\Colorizer.sln -t:Clean -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Clean -p:Configuration=Release /p:Platform=x86
+del .\Colorizer.exe /f /q
+del .\Colorizer.exe.h /f /q
+del .\PFXGDI.exe /f /q
+del .\PFXGDI.exe.h /f /q
+del .\Widths.h /f /q
+msbuild ..\Colorizer\Colorizer.sln -t:Rebuild -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Rebuild -p:Configuration=Release /p:Platform=x86
+xxd -i Colorizer.exe &gt; Colorizer.exe.h
+xxd -i PFXGDI.exe &gt; PFXGDI.exe.h
+clang-cl /fallback /EHsc /D "UNICODE" /Fe.\tmp.exe /Fo.\tmp.obj .\TextWidthCalculator.cpp /link gdi32.lib user32.lib
+start /wait cmd /c chcp 65001 ^&amp;title Calculating text widths... ^&amp;type .\Language.h ^|.\tmp.exe ^&gt;.\Widths.h
+del .\tmp.exe /f /q
+del .\tmp.obj /f /q
+</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+copy ..\Release\$(TargetName).exe ..\$(TargetName).exe /v /y
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\.vs /f /s /q
+rmdir ..\.vs /s /q
+del .\Release /f /s /q
+rmdir .\Release /s /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+mkdir ..\Release
+move /y ..\$(TargetName).exe ..\Release\$(TargetName).exe
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <ShowProgress>true</ShowProgress>
+      <PreprocessorDefinitions>ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;INCLUDE_FFMPEG;ARN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/clang:-Ofast /clang:-msse4.2 %(AdditionalOptions)</AdditionalOptions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <GuardSignedReturns>false</GuardSignedReturns>
+      <OpenMPSupport>false</OpenMPSupport>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lzma.lib;winhttp.lib;freetype-x64.lib;libpng16-x64.lib;zlib-x64.lib;brotlicommon-x64.lib;brotlidec-x64.lib;bz2-x64.lib;dxguid.lib;dxgi.lib;d3d12.lib;Psapi.lib;Shlwapi.lib;Dwmapi.lib;Comctl32.lib;WinMM.lib;UxTheme.lib;Advapi32.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>
+      </Version>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <AdditionalManifestDependencies>"type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'";%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+msbuild ..\Colorizer\Colorizer.sln -t:Clean -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Clean -p:Configuration=Release /p:Platform=x86
+del .\Colorizer.exe /f /q
+del .\Colorizer.exe.h /f /q
+del .\PFXGDI.exe /f /q
+del .\PFXGDI.exe.h /f /q
+del .\Widths.h /f /q
+msbuild ..\Colorizer\Colorizer.sln -t:Rebuild -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Rebuild -p:Configuration=Release /p:Platform=x86
+xxd -i Colorizer.exe &gt; Colorizer.exe.h
+xxd -i PFXGDI.exe &gt; PFXGDI.exe.h
+clang-cl /fallback /EHsc /D "UNICODE" /Fe.\tmp.exe /Fo.\tmp.obj .\TextWidthCalculator.cpp /link gdi32.lib user32.lib
+start /wait cmd /c chcp 65001 ^&amp;title Calculating text widths... ^&amp;type .\Language.h ^|.\tmp.exe ^&gt;.\Widths.h
+del .\tmp.exe /f /q
+del .\tmp.obj /f /q
+</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+copy ..\Release\$(TargetName).exe ..\$(TargetName).exe /v /y
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\.vs /f /s /q
+rmdir ..\.vs /s /q
+del .\Release /f /s /q
+rmdir .\Release /s /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+mkdir ..\Release
+move /y ..\$(TargetName).exe ..\Release\$(TargetName).exe
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <ShowProgress>true</ShowProgress>
+      <PreprocessorDefinitions>ARN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;INCLUDE_FFMPEG;DRN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/clang:-Ofast /clang:-msse4.2 %(AdditionalOptions)</AdditionalOptions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <GuardSignedReturns>false</GuardSignedReturns>
+      <OpenMPSupport>false</OpenMPSupport>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lzma.lib;winhttp.lib;freetype-x64.lib;libpng16-x64.lib;zlib-x64.lib;brotlicommon-x64.lib;brotlidec-x64.lib;bz2-x64.lib;dxguid.lib;dxgi.lib;d3d12.lib;Psapi.lib;Shlwapi.lib;Dwmapi.lib;Comctl32.lib;WinMM.lib;UxTheme.lib;Advapi32.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>
+      </Version>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <AdditionalManifestDependencies>"type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'";%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+msbuild ..\Colorizer\Colorizer.sln -t:Clean -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Clean -p:Configuration=Release /p:Platform=x86
+del .\Colorizer.exe /f /q
+del .\Colorizer.exe.h /f /q
+del .\PFXGDI.exe /f /q
+del .\PFXGDI.exe.h /f /q
+del .\Widths.h /f /q
+msbuild ..\Colorizer\Colorizer.sln -t:Rebuild -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Rebuild -p:Configuration=Release /p:Platform=x86
+xxd -i Colorizer.exe &gt; Colorizer.exe.h
+xxd -i PFXGDI.exe &gt; PFXGDI.exe.h
+clang-cl /fallback /EHsc /D "UNICODE" /Fe.\tmp.exe /Fo.\tmp.obj .\TextWidthCalculator.cpp /link gdi32.lib user32.lib
+start /wait cmd /c chcp 65001 ^&amp;title Calculating text widths... ^&amp;type .\Language.h ^|.\tmp.exe ^&gt;.\Widths.h
+del .\tmp.exe /f /q
+del .\tmp.obj /f /q
+</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+copy ..\Release\$(TargetName).exe ..\$(TargetName).exe /v /y
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\.vs /f /s /q
+rmdir ..\.vs /s /q
+del .\Release /f /s /q
+rmdir .\Release /s /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+mkdir ..\Release
+move /y ..\$(TargetName).exe ..\Release\$(TargetName).exe
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <ShowProgress>true</ShowProgress>
+      <PreprocessorDefinitions>DRN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;INCLUDE_FFMPEG;KOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/clang:-Ofast /clang:-msse4.2 %(AdditionalOptions)</AdditionalOptions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <GuardSignedReturns>false</GuardSignedReturns>
+      <OpenMPSupport>false</OpenMPSupport>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lzma.lib;winhttp.lib;freetype-x64.lib;libpng16-x64.lib;zlib-x64.lib;brotlicommon-x64.lib;brotlidec-x64.lib;bz2-x64.lib;dxguid.lib;dxgi.lib;d3d12.lib;Psapi.lib;Shlwapi.lib;Dwmapi.lib;Comctl32.lib;WinMM.lib;UxTheme.lib;Advapi32.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>
+      </Version>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <AdditionalManifestDependencies>"type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'";%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+msbuild ..\Colorizer\Colorizer.sln -t:Clean -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Clean -p:Configuration=Release /p:Platform=x86
+del .\Colorizer.exe /f /q
+del .\Colorizer.exe.h /f /q
+del .\PFXGDI.exe /f /q
+del .\PFXGDI.exe.h /f /q
+del .\Widths.h /f /q
+msbuild ..\Colorizer\Colorizer.sln -t:Rebuild -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Rebuild -p:Configuration=Release /p:Platform=x86
+xxd -i Colorizer.exe &gt; Colorizer.exe.h
+xxd -i PFXGDI.exe &gt; PFXGDI.exe.h
+clang-cl /fallback /EHsc /D "UNICODE" /Fe.\tmp.exe /Fo.\tmp.obj .\TextWidthCalculator.cpp /link gdi32.lib user32.lib
+start /wait cmd /c chcp 65001 ^&amp;title Calculating text widths... ^&amp;type .\Language.h ^|.\tmp.exe ^&gt;.\Widths.h
+del .\tmp.exe /f /q
+del .\tmp.obj /f /q
+</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+copy ..\Release\$(TargetName).exe ..\$(TargetName).exe /v /y
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\.vs /f /s /q
+rmdir ..\.vs /s /q
+del .\Release /f /s /q
+rmdir .\Release /s /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+mkdir ..\Release
+move /y ..\$(TargetName).exe ..\Release\$(TargetName).exe
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <ShowProgress>true</ShowProgress>
+      <PreprocessorDefinitions>KOR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;INCLUDE_FFMPEG;RUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/clang:-Ofast /clang:-msse4.2 %(AdditionalOptions)</AdditionalOptions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <GuardSignedReturns>false</GuardSignedReturns>
+      <OpenMPSupport>false</OpenMPSupport>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lzma.lib;winhttp.lib;freetype-x64.lib;libpng16-x64.lib;zlib-x64.lib;brotlicommon-x64.lib;brotlidec-x64.lib;bz2-x64.lib;dxguid.lib;dxgi.lib;d3d12.lib;Psapi.lib;Shlwapi.lib;Dwmapi.lib;Comctl32.lib;WinMM.lib;UxTheme.lib;Advapi32.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>
+      </Version>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <AdditionalManifestDependencies>"type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'";%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+msbuild ..\Colorizer\Colorizer.sln -t:Clean -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Clean -p:Configuration=Release /p:Platform=x86
+del .\Colorizer.exe /f /q
+del .\Colorizer.exe.h /f /q
+del .\PFXGDI.exe /f /q
+del .\PFXGDI.exe.h /f /q
+del .\Widths.h /f /q
+msbuild ..\Colorizer\Colorizer.sln -t:Rebuild -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Rebuild -p:Configuration=Release /p:Platform=x86
+xxd -i Colorizer.exe &gt; Colorizer.exe.h
+xxd -i PFXGDI.exe &gt; PFXGDI.exe.h
+clang-cl /fallback /EHsc /D "UNICODE" /Fe.\tmp.exe /Fo.\tmp.obj .\TextWidthCalculator.cpp /link gdi32.lib user32.lib
+start /wait cmd /c chcp 65001 ^&amp;title Calculating text widths... ^&amp;type .\Language.h ^|.\tmp.exe ^&gt;.\Widths.h
+del .\tmp.exe /f /q
+del .\tmp.obj /f /q
+</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+copy ..\Release\$(TargetName).exe ..\$(TargetName).exe /v /y
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\.vs /f /s /q
+rmdir ..\.vs /s /q
+del .\Release /f /s /q
+rmdir .\Release /s /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+mkdir ..\Release
+move /y ..\$(TargetName).exe ..\Release\$(TargetName).exe
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <ShowProgress>true</ShowProgress>
+      <PreprocessorDefinitions>RUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;INCLUDE_FFMPEG;CHN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/clang:-Ofast /clang:-msse4.2 %(AdditionalOptions)</AdditionalOptions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <GuardSignedReturns>false</GuardSignedReturns>
+      <OpenMPSupport>false</OpenMPSupport>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lzma.lib;winhttp.lib;freetype-x64.lib;libpng16-x64.lib;zlib-x64.lib;brotlicommon-x64.lib;brotlidec-x64.lib;bz2-x64.lib;dxguid.lib;dxgi.lib;d3d12.lib;Psapi.lib;Shlwapi.lib;Dwmapi.lib;Comctl32.lib;WinMM.lib;UxTheme.lib;Advapi32.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>
+      </Version>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <AdditionalManifestDependencies>"type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'";%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+msbuild ..\Colorizer\Colorizer.sln -t:Clean -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Clean -p:Configuration=Release /p:Platform=x86
+del .\Colorizer.exe /f /q
+del .\Colorizer.exe.h /f /q
+del .\PFXGDI.exe /f /q
+del .\PFXGDI.exe.h /f /q
+del .\Widths.h /f /q
+msbuild ..\Colorizer\Colorizer.sln -t:Rebuild -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Rebuild -p:Configuration=Release /p:Platform=x86
+xxd -i Colorizer.exe &gt; Colorizer.exe.h
+xxd -i PFXGDI.exe &gt; PFXGDI.exe.h
+clang-cl /fallback /EHsc /D "UNICODE" /Fe.\tmp.exe /Fo.\tmp.obj .\TextWidthCalculator.cpp /link gdi32.lib user32.lib
+start /wait cmd /c chcp 65001 ^&amp;title Calculating text widths... ^&amp;type .\Language.h ^|.\tmp.exe ^&gt;.\Widths.h
+del .\tmp.exe /f /q
+del .\tmp.obj /f /q
+</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+copy ..\Release\$(TargetName).exe ..\$(TargetName).exe /v /y
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\.vs /f /s /q
+rmdir ..\.vs /s /q
+del .\Release /f /s /q
+rmdir .\Release /s /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+mkdir ..\Release
+move /y ..\$(TargetName).exe ..\Release\$(TargetName).exe
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <ShowProgress>true</ShowProgress>
+      <PreprocessorDefinitions>CHN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;INCLUDE_FFMPEG;JPN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/clang:-Ofast /clang:-msse4.2 %(AdditionalOptions)</AdditionalOptions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <GuardSignedReturns>false</GuardSignedReturns>
+      <OpenMPSupport>false</OpenMPSupport>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lzma.lib;winhttp.lib;freetype-x64.lib;libpng16-x64.lib;zlib-x64.lib;brotlicommon-x64.lib;brotlidec-x64.lib;bz2-x64.lib;dxguid.lib;dxgi.lib;d3d12.lib;Psapi.lib;Shlwapi.lib;Dwmapi.lib;Comctl32.lib;WinMM.lib;UxTheme.lib;Advapi32.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>
+      </Version>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <AdditionalManifestDependencies>"type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'";%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+msbuild ..\Colorizer\Colorizer.sln -t:Clean -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Clean -p:Configuration=Release /p:Platform=x86
+del .\Colorizer.exe /f /q
+del .\Colorizer.exe.h /f /q
+del .\PFXGDI.exe /f /q
+del .\PFXGDI.exe.h /f /q
+del .\Widths.h /f /q
+msbuild ..\Colorizer\Colorizer.sln -t:Rebuild -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Rebuild -p:Configuration=Release /p:Platform=x86
+xxd -i Colorizer.exe &gt; Colorizer.exe.h
+xxd -i PFXGDI.exe &gt; PFXGDI.exe.h
+clang-cl /fallback /EHsc /D "UNICODE" /Fe.\tmp.exe /Fo.\tmp.obj .\TextWidthCalculator.cpp /link gdi32.lib user32.lib
+start /wait cmd /c chcp 65001 ^&amp;title Calculating text widths... ^&amp;type .\Language.h ^|.\tmp.exe ^&gt;.\Widths.h
+del .\tmp.exe /f /q
+del .\tmp.obj /f /q
+</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+copy ..\Release\$(TargetName).exe ..\$(TargetName).exe /v /y
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\.vs /f /s /q
+rmdir ..\.vs /s /q
+del .\Release /f /s /q
+rmdir .\Release /s /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+mkdir ..\Release
+move /y ..\$(TargetName).exe ..\Release\$(TargetName).exe
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <ShowProgress>true</ShowProgress>
+      <PreprocessorDefinitions>JPN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;SOFTWARE_RENDER_ONLY;INCLUDE_FFMPEG;ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/clang:-Ofast /clang:-msse4.2 %(AdditionalOptions)</AdditionalOptions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <GuardSignedReturns>false</GuardSignedReturns>
+      <OpenMPSupport>false</OpenMPSupport>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lzma.lib;winhttp.lib;freetype-x64.lib;libpng16-x64.lib;zlib-x64.lib;brotlicommon-x64.lib;brotlidec-x64.lib;bz2-x64.lib;dxguid.lib;dxgi.lib;d3d12.lib;Psapi.lib;Shlwapi.lib;Dwmapi.lib;Comctl32.lib;WinMM.lib;UxTheme.lib;Advapi32.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>
+      </Version>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <AdditionalManifestDependencies>"type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'";%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+msbuild ..\Colorizer\Colorizer.sln -t:Clean -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Clean -p:Configuration=Release /p:Platform=x86
+del .\Colorizer.exe /f /q
+del .\Colorizer.exe.h /f /q
+del .\PFXGDI.exe /f /q
+del .\PFXGDI.exe.h /f /q
+del .\Widths.h /f /q
+msbuild ..\Colorizer\Colorizer.sln -t:Rebuild -p:Configuration=Release /p:Platform=x64
+msbuild ..\PFXGDI\PFXGDI.sln -t:Rebuild -p:Configuration=Release /p:Platform=x86
+xxd -i Colorizer.exe &gt; Colorizer.exe.h
+xxd -i PFXGDI.exe &gt; PFXGDI.exe.h
+clang-cl /fallback /EHsc /D "UNICODE" /Fe.\tmp.exe /Fo.\tmp.obj .\TextWidthCalculator.cpp /link gdi32.lib user32.lib
+start /wait cmd /c chcp 65001 ^&amp;title Calculating text widths... ^&amp;type .\Language.h ^|.\tmp.exe ^&gt;.\Widths.h
+del .\tmp.exe /f /q
+del .\tmp.obj /f /q
+</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+copy ..\Release\$(TargetName).exe ..\$(TargetName).exe /v /y
+msbuild ..\Piano-FX-Pro.sln -t:Clean -p:Configuration=$(ConfigurationName) /p:Platform=x64
+del .\PianoFromAbove.vcxproj.user /f /q
+del ..\.vs /f /s /q
+rmdir ..\.vs /s /q
+del .\Release /f /s /q
+rmdir .\Release /s /q
+del ..\Release /f /s /q
+rmdir ..\Release /s /q
+mkdir ..\Release
+move /y ..\$(TargetName).exe ..\Release\$(TargetName).exe
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <ShowProgress>true</ShowProgress>
+      <PreprocessorDefinitions>ENG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;TIXML_USE_STL;DBG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/clang:-Ofast /clang:-msse4.2 %(AdditionalOptions)</AdditionalOptions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>NoExtensions</EnableEnhancedInstructionSet>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <GuardSignedReturns>false</GuardSignedReturns>
+      <OpenMPSupport>false</OpenMPSupport>
+      <WarningLevel>Level4</WarningLevel>
+      <CallingConvention>FastCall</CallingConvention>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>lzma.lib;winhttp.lib;freetype-x64.lib;libpng16-x64.lib;zlib-x64.lib;brotlicommon-x64.lib;brotlidec-x64.lib;bz2-x64.lib;dxguid.lib;dxgi.lib;d3d12.lib;Psapi.lib;Shlwapi.lib;Dwmapi.lib;Comctl32.lib;WinMM.lib;UxTheme.lib;Advapi32.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Version>
+      </Version>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <AdditionalManifestDependencies>"type='Win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'";%(AdditionalManifestDependencies)</AdditionalManifestDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>cd /d "$(ProjectDir)"
+clang-cl /fallback /EHsc /D "UNICODE" /Fe.\tmp.exe /Fo.\tmp.obj .\TextWidthCalculator.cpp /link gdi32.lib user32.lib
+start /wait cmd /c chcp 65001 ^&amp;title Calculating text widths... ^&amp;type .\Language.h ^|.\tmp.exe ^&gt;.\Widths.h
+</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <ShowProgress>true</ShowProgress>
+      <PreprocessorDefinitions>DBG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="TextWidthCalculator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Tutorials.cpp" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="ButtonStateDeclarations.h" />
+    <ClInclude Include="CheatEngineTutorial.h" />
+    <ClInclude Include="ClipboardTool.h" />
+    <ClInclude Include="CloseBtn.h" />
+    <ClInclude Include="Colorizer.exe.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="ConfigProcs.h" />
+    <ClInclude Include="ConsoleDropdown.h" />
+    <ClInclude Include="ConsoleFillingTool.h" />
+    <ClInclude Include="ConsoleNumberSpinner.h" />
+    <ClInclude Include="ConsoleSetupScript.h" />
+    <ClInclude Include="ConsoleTransitionTool.h" />
+    <ClInclude Include="d3dx12\d3dx12.h" />
+    <ClInclude Include="d3dx12\d3dx12_barriers.h" />
+    <ClInclude Include="d3dx12\d3dx12_check_feature_support.h" />
+    <ClInclude Include="d3dx12\d3dx12_core.h" />
+    <ClInclude Include="d3dx12\d3dx12_default.h" />
+    <ClInclude Include="d3dx12\d3dx12_pipeline_state_stream.h" />
+    <ClInclude Include="d3dx12\d3dx12_render_pass.h" />
+    <ClInclude Include="d3dx12\d3dx12_resource_helpers.h" />
+    <ClInclude Include="d3dx12\d3dx12_root_signature.h" />
+    <ClInclude Include="d3dx12\d3dx12_state_object.h" />
+    <ClInclude Include="DebugLanguageOverride.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="EmbededFilesExtractor.h" />
+    <ClInclude Include="ffmpeg1.h" />
+    <ClInclude Include="ffmpeg2.h" />
+    <ClInclude Include="ffmpeg3.h" />
+    <ClInclude Include="ffmpeg4.h" />
+    <ClInclude Include="ffmpeg5.h" />
+    <ClInclude Include="ffmpeg6.h" />
+    <ClInclude Include="flpTools.h" />
+    <ClInclude Include="freetype\freetype.h" />
+    <ClInclude Include="freetype\ftadvanc.h" />
+    <ClInclude Include="freetype\ftbbox.h" />
+    <ClInclude Include="freetype\ftbdf.h" />
+    <ClInclude Include="freetype\ftbitmap.h" />
+    <ClInclude Include="freetype\ftbzip2.h" />
+    <ClInclude Include="freetype\ftcache.h" />
+    <ClInclude Include="freetype\ftchapters.h" />
+    <ClInclude Include="freetype\ftcid.h" />
+    <ClInclude Include="freetype\ftcolor.h" />
+    <ClInclude Include="freetype\ftdriver.h" />
+    <ClInclude Include="freetype\fterrdef.h" />
+    <ClInclude Include="freetype\fterrors.h" />
+    <ClInclude Include="freetype\ftfntfmt.h" />
+    <ClInclude Include="freetype\ftgasp.h" />
+    <ClInclude Include="freetype\ftglyph.h" />
+    <ClInclude Include="freetype\ftgxval.h" />
+    <ClInclude Include="freetype\ftgzip.h" />
+    <ClInclude Include="freetype\ftimage.h" />
+    <ClInclude Include="freetype\ftincrem.h" />
+    <ClInclude Include="freetype\ftlcdfil.h" />
+    <ClInclude Include="freetype\ftlist.h" />
+    <ClInclude Include="freetype\ftlogging.h" />
+    <ClInclude Include="freetype\ftlzw.h" />
+    <ClInclude Include="freetype\ftmac.h" />
+    <ClInclude Include="freetype\ftmm.h" />
+    <ClInclude Include="freetype\ftmodapi.h" />
+    <ClInclude Include="freetype\ftmoderr.h" />
+    <ClInclude Include="freetype\ftotval.h" />
+    <ClInclude Include="freetype\ftoutln.h" />
+    <ClInclude Include="freetype\ftparams.h" />
+    <ClInclude Include="freetype\ftpfr.h" />
+    <ClInclude Include="freetype\ftrender.h" />
+    <ClInclude Include="freetype\ftsizes.h" />
+    <ClInclude Include="freetype\ftsnames.h" />
+    <ClInclude Include="freetype\ftstroke.h" />
+    <ClInclude Include="freetype\ftsynth.h" />
+    <ClInclude Include="freetype\ftsystem.h" />
+    <ClInclude Include="freetype\fttrigon.h" />
+    <ClInclude Include="freetype\fttypes.h" />
+    <ClInclude Include="freetype\ftwinfnt.h" />
+    <ClInclude Include="freetype\otsvg.h" />
+    <ClInclude Include="freetype\t1tables.h" />
+    <ClInclude Include="freetype\ttnameid.h" />
+    <ClInclude Include="freetype\tttables.h" />
+    <ClInclude Include="freetype\tttags.h" />
+    <ClInclude Include="ft2build.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GDITutorial.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="imgui\Fonts.h" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imguiCompressedFont2GDI.h" />
+    <ClInclude Include="imgui\imgui_freetype.h" />
+    <ClInclude Include="imgui\imgui_impl_dx12.h" />
+    <ClInclude Include="imgui\imgui_impl_win32.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="Language.h" />
+    <ClInclude Include="LuaCode.h" />
+    <ClInclude Include="lzma.h" />
+    <ClInclude Include="lzma\base.h" />
+    <ClInclude Include="lzma\bcj.h" />
+    <ClInclude Include="lzma\block.h" />
+    <ClInclude Include="lzma\check.h" />
+    <ClInclude Include="lzma\container.h" />
+    <ClInclude Include="lzma\delta.h" />
+    <ClInclude Include="lzma\filter.h" />
+    <ClInclude Include="lzma\hardware.h" />
+    <ClInclude Include="lzma\index.h" />
+    <ClInclude Include="lzma\index_hash.h" />
+    <ClInclude Include="lzma\lzma12.h" />
+    <ClInclude Include="lzma\stream_flags.h" />
+    <ClInclude Include="lzma\version.h" />
+    <ClInclude Include="lzma\vli.h" />
+    <ClInclude Include="MainProcs.h" />
+    <ClInclude Include="matrices.h" />
+    <ClInclude Include="MIDI.h" />
+    <ClInclude Include="Misc.h" />
+    <ClInclude Include="NullPtrChecker.h" />
+    <ClInclude Include="PFXGDI.exe.h" />
+    <ClInclude Include="PFXSTUDIO_Global_Imports.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Studio.h" />
+    <ClInclude Include="Tab1Btn3.h">
+      <FileType>CppHeader</FileType>
+    </ClInclude>
+    <ClInclude Include="Tab1.h" />
+    <ClCompile Include="Tab1Main.h">
+      <FileType>CppHeader</FileType>
+    </ClCompile>
+    <ClInclude Include="Tab1Graphics.h" />
+    <ClInclude Include="Tab2.h" />
+    <ClCompile Include="Tab2Main.h">
+      <FileType>CppHeader</FileType>
+    </ClCompile>
+    <ClInclude Include="Tab2Btn4.h" />
+    <ClInclude Include="Tab2Graphics.h" />
+    <ClInclude Include="Tab3.h" />
+    <ClCompile Include="Tab3Main.h">
+      <FileType>CppHeader</FileType>
+    </ClCompile>
+    <ClInclude Include="Tab3Graphics.h" />
+    <ClInclude Include="Tab4.h" />
+    <ClCompile Include="Tab4Main.h">
+      <FileType>CppHeader</FileType>
+    </ClCompile>
+    <ClInclude Include="Tab4Graphics.h" />
+    <ClInclude Include="TabSwitcher.h" />
+    <ClCompile Include="TabSwitcherMain.h">
+      <FileType>CppHeader</FileType>
+    </ClCompile>
+    <ClInclude Include="ConsoleTextbox.h" />
+    <ClInclude Include="tinyxml\tinystr.h" />
+    <ClInclude Include="tinyxml\tinyxml.h" />
+    <ClInclude Include="TouchEventListener.h" />
+    <ClCompile Include="TouchEventListenerInit.h" />
+    <ClInclude Include="TutorialFramework.h" />
+    <ClInclude Include="Tutorials.h" />
+    <ClInclude Include="VisualizePitchBendTutorial.h" />
+    <ClInclude Include="Widths.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PianoFromAbove.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="ConfigProcs.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_freetype.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx12.cpp" />
+    <ClCompile Include="imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="MainProcs.cpp" />
+    <ClCompile Include="MIDI.cpp" />
+    <ClCompile Include="Misc.cpp" />
+    <ClCompile Include="PianoFromAbove.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Studio.cpp" />
+    <ClCompile Include="tinyxml\tinystr.cpp" />
+    <ClCompile Include="tinyxml\tinyxml.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\chase.mid.xz" />
+    <None Include="Images\PFA Icon.ico" />
+    <None Include="Images\mediaiconssmall.bmp" />
+    <None Include="common.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="background_ps.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.1</ShaderModel>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g_pBackgroundPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">g_pBackgroundPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">g_pBackgroundPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">g_pBackgroundPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">g_pBackgroundPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">g_pBackgroundPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">g_pBackgroundPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">g_pBackgroundPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g_pBackgroundPixelShader</VariableName>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)BackgroundPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">$(ProjectDir)BackgroundPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">$(ProjectDir)BackgroundPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">$(ProjectDir)BackgroundPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">$(ProjectDir)BackgroundPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">$(ProjectDir)BackgroundPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">$(ProjectDir)BackgroundPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">$(ProjectDir)BackgroundPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)BackgroundPixelShader.h</HeaderFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="background_vs.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.1</ShaderModel>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)BackgroundVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">$(ProjectDir)BackgroundVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">$(ProjectDir)BackgroundVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">$(ProjectDir)BackgroundVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">$(ProjectDir)BackgroundVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">$(ProjectDir)BackgroundVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">$(ProjectDir)BackgroundVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">$(ProjectDir)BackgroundVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)BackgroundVertexShader.h</HeaderFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ObjectFileOutput>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g_pBackgroundVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">g_pBackgroundVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">g_pBackgroundVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">g_pBackgroundVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">g_pBackgroundVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">g_pBackgroundVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">g_pBackgroundVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">g_pBackgroundVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g_pBackgroundVertexShader</VariableName>
+    </FxCompile>
+    <FxCompile Include="note_vs_samewidth.hlsl">
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">5.1</ShaderModel>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)NoteVertexShaderSameWidth.h</HeaderFileOutput>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g_pNoteVertexShaderSameWidth</VariableName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.1</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">$(ProjectDir)NoteVertexShaderSameWidth.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)NoteVertexShaderSameWidth.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">$(ProjectDir)NoteVertexShaderSameWidth.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">$(ProjectDir)NoteVertexShaderSameWidth.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">$(ProjectDir)NoteVertexShaderSameWidth.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">$(ProjectDir)NoteVertexShaderSameWidth.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">$(ProjectDir)NoteVertexShaderSameWidth.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">$(ProjectDir)NoteVertexShaderSameWidth.h</HeaderFileOutput>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">g_pNoteVertexShaderSameWidth</VariableName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">
+      </ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">5.1</ShaderModel>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">
+      </ObjectFileOutput>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">Vertex</ShaderType>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g_pNoteVertexShaderSameWidth</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">g_pNoteVertexShaderSameWidth</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">g_pNoteVertexShaderSameWidth</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">g_pNoteVertexShaderSameWidth</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">g_pNoteVertexShaderSameWidth</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">g_pNoteVertexShaderSameWidth</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">g_pNoteVertexShaderSameWidth</VariableName>
+    </FxCompile>
+    <FxCompile Include="note_ps.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)NotePixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">$(ProjectDir)NotePixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">$(ProjectDir)NotePixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">$(ProjectDir)NotePixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">$(ProjectDir)NotePixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">$(ProjectDir)NotePixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">$(ProjectDir)NotePixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">$(ProjectDir)NotePixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)NotePixelShader.h</HeaderFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ObjectFileOutput>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g_pNotePixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">g_pNotePixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">g_pNotePixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">g_pNotePixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">g_pNotePixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">g_pNotePixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">g_pNotePixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">g_pNotePixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g_pNotePixelShader</VariableName>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="note_vs.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g_pNoteVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">g_pNoteVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">g_pNoteVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">g_pNoteVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">g_pNoteVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">g_pNoteVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">g_pNoteVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">g_pNoteVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g_pNoteVertexShader</VariableName>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ObjectFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)NoteVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">$(ProjectDir)NoteVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">$(ProjectDir)NoteVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">$(ProjectDir)NoteVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">$(ProjectDir)NoteVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">$(ProjectDir)NoteVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">$(ProjectDir)NoteVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">$(ProjectDir)NoteVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)NoteVertexShader.h</HeaderFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="rect_ps.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g_pRectPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">g_pRectPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">g_pRectPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">g_pRectPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">g_pRectPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">g_pRectPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">g_pRectPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">g_pRectPixelShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g_pRectPixelShader</VariableName>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)RectPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">$(ProjectDir)RectPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">$(ProjectDir)RectPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">$(ProjectDir)RectPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">$(ProjectDir)RectPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">$(ProjectDir)RectPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">$(ProjectDir)RectPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">$(ProjectDir)RectPixelShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)RectPixelShader.h</HeaderFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.1</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="rect_vs.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g_pRectVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">g_pRectVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">g_pRectVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">g_pRectVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">g_pRectVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">g_pRectVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">g_pRectVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">g_pRectVertexShader</VariableName>
+      <VariableName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g_pRectVertexShader</VariableName>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)RectVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">$(ProjectDir)RectVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">$(ProjectDir)RectVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">$(ProjectDir)RectVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">$(ProjectDir)RectVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">$(ProjectDir)RectVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">$(ProjectDir)RectVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">$(ProjectDir)RectVertexShader.h</HeaderFileOutput>
+      <HeaderFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)RectVertexShader.h</HeaderFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">
+      </ObjectFileOutput>
+      <ObjectFileOutput Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ObjectFileOutput>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Arinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='DoubleArinoglish|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Korean|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Russian|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Chinese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Japanese|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='EnforceSoftwareRender|x64'">5.1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.1</ShaderModel>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
